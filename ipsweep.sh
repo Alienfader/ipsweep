@@ -1,7 +1,7 @@
 #!/bin/bash
 if ["$1" == ""]
 then
-echo "typP, stupid!"
+echo "type IP, stupid!"
 echo "syntax 192.168.1"
 else
 for ip in `seq 1 254`; do
